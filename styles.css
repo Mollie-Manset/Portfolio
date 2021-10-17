@@ -61,6 +61,11 @@ body {
     padding: .5em;
 }
 
+.home-section p {
+    line-height: 25px;
+    padding: .5em;
+}
+
 .work-section {
     display: flex;
     flex-direction: column;
