@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Yanone+Kaffeesatz&display=swap');
+
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1em;
+}
+
+nav {
+    background-color: cyan;
+    width: 100vw;
+    font-family: 'Press Start 2P', cursive;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    padding: 1em;
+    font-size: 1.5em;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.home-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.home-section h1 {
+    font-size: 5em;
+}
+
+.home-section img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    padding: .5em;
+}
+
+.work-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.work-section h1 {
+    font-size: 4em;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project {
+    min-width: 200px;
+    min-height: 250px;
+    padding: .5em;
+    margin: 10px;
+    background-color: black;
+}
+
+.project-title {
+    background-color: cyan;
+    height: 1em;
+    padding: .5em;
+    margin-bottom: .5em;
+}
+
+.project-img {
+    background-color: lightgray;
+    height: 200px;
+    width: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.project-img img {
+    height: 100px;
+    width: auto;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: cyan;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2 {
+    font-size: 2em;;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+}
+
+footer li {
+    padding: 1em;
+}
+
+.social-icon {
+    width: auto;
+    height: 50px;
+}
