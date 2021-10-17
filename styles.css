@@ -98,7 +98,6 @@ body {
 }
 
 .project-img {
-    background-color: lightgray;
     height: 200px;
     width: auto;
     text-align: center;
@@ -109,7 +108,7 @@ body {
 }
 
 .project-img img {
-    height: 100px;
+    height: 200px;
     width: auto;
 }
 
